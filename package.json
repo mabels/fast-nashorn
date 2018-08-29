@@ -1,0 +1,40 @@
+{
+  "name": "fasthorn",
+  "version": "1.0.0",
+  "description": "jvm nashorn performance",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mabels/fasthorn"
+  },
+  "private": true,
+  "engines": {
+    "node": "^8.10.0"
+  },
+  "scripts": {
+    "build": "tsc && webpack",
+    "clean": "npx rimraf lib",
+    "compile": "tsc --project tsconfig.json"
+  },
+  "dependencies": {
+    "preact": "^8.3.1",
+    "preact-render-to-string": "^3.8.2",
+    "tslib": "1.9.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.0",
+    "@types/node": "^8.0.24",
+    "@types/uuid": "^3.4.3",
+    "jest": "^23.4.1",
+    "jest-cli": "^23.4.1",
+    "ts-enum-util": "^3.1.0",
+    "ts-jest": "^23.0.1",
+    "ts-loader": "^4.4.2",
+    "typescript": "^2.9.2",
+    "webpack": "^4.16.2",
+    "webpack-cli": "^3.1.0"
+  }
+}

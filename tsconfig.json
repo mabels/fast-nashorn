@@ -1,0 +1,53 @@
+{
+  "compilerOptions": {
+    "alwaysStrict": true,
+    "declaration": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "lib": [
+      "es5",
+      "es2015.core",
+      "es2015.promise",
+      "dom",
+      "es6",
+      "es2015.core",
+      "es2015.promise",
+      "es2015.iterable",
+      "scripthost",
+      "esnext.asynciterable"
+    ],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitUseStrict": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "baseUrl": ".",
+    "paths": {
+      "parse5": ["./node_modules/parse5/lib/index.d.ts"]
+    },
+    "preserveConstEnums": true,
+    "pretty": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "target": "es5",
+    "watch": false,
+    "jsx": "react",
+    "jsxFactory": "h",
+    "outDir": "./lib"
+  },
+  "include": [
+    "./js/**/*.ts",
+    "./js/**/*.tsx",
+    "./typings/**/*.d.ts"
+  ],
+  "exclude": [
+    "./node_modules/",
+    "./lib/"
+  ]
+}
